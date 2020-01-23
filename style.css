@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: cornflowerblue;
+    background-color: #ded4d3;
     margin: 0;
 }
 
@@ -9,15 +9,46 @@ h1 {
 }
 
 .projects {
-    background-color: lightskyblue;
+    background-color: #cfc3c2;
+    text-align: center;
     border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.description-list {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.5;
+}
+
+.my-photo {
+    height: 200px;
+    width: 150px;
 }
 
 .projects-list {
-    color: red;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.5;
 }
 
 .header {
-    background-color: lightblue;
-    height: 150px;
+    background-color: #c2aeac;
+    height: 50px;
+    margin-top: 0px;
+    padding-bottom: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    background-color: #c2aeac;
+    padding-bottom: 0;
 }
