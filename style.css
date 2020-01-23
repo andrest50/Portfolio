@@ -1,0 +1,23 @@
+﻿body {
+    background-color: cornflowerblue;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.projects {
+    background-color: lightskyblue;
+    border: 2px solid black;
+}
+
+.projects-list {
+    color: red;
+}
+
+.header {
+    background-color: lightblue;
+    height: 150px;
+}
