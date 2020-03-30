@@ -7,55 +7,88 @@
         <meta charset="utf-8">
         <title>Andres' Portfolio</title>
         <link href="style.css" rel="stylesheet">
+        <script defer src="index.js"></script>
     </head>
     <body>
         <div class="header">
             <h3 class="title">
-                <strong> Andres' Portfolio </strong>
+                <strong> Andres Tobon </strong>
             </h3>
+            <img src="IMG_4930.jpg" class="my-photo" align="left" />
+            <p style="text-align: right">More about me and my projects: <a href="https://github.com/andrest50"> Github</a>      <a href="https://www.linkedin.com/in/andres-tobon-33587719a/">LinkedIn</a></p>
         </div>
-        <div class="about-me">
-            <h3>
-                <strong> Welcome to my collection of projects. </strong>
-            </h3>
-            <img src="IMG_4930.jpg" class="my-photo"/>
-            <p>
-                <strong>About Me</strong>
-            </p>
-            <ul class="description-list">               
-                <li>
-                    First-year CS major
-                </li>
-                <li>
-                    Interested in AI, Data Science and Web/App Development
-                </li>
-                <li>
-                    Experienced in Java, C#, C++, and a bit in Python
-                </li>
-            </ul>
+        <h4 class="temp">
+            <strong> The website is in its early stages </strong>
+        </h4>
+        <div class="v1"></div>
+        <div class="boxes">
+            <div class="about-me">
+                <p>
+                    <strong>About Me</strong>
+                </p>
+                <ul class="description-list">
+                    <li>
+                        First-year CS major, math minor
+                    </li>
+                    <li>
+                        Interested in AI, Data Science and Web/App Development
+                    </li>
+                    <li>
+                        Experienced in Java, C#, C++, and a bit in Python
+                    </li>
+                </ul>
+            </div>
+            <div class="projects">
+                <p>
+                    <strong>Projects</strong>
+                </p>
+                <ul class="projects-list">
+                    <li>
+                        Connect Four
+                    </li>
+                    <li>
+                        Word Counter & Finder
+                    </li>
+                    <li>
+                        Budget Tracker
+                    </li>
+                    <li>
+                        Hunt the Wumpus
+                    </li>
+                    <li>
+                        Crazy Eights
+                    </li>
+                    <li>
+                        Zoo Tycoon
+                    </li>
+                    <li>
+                        Minigames
+                    </li>
+                </ul>
+                <img src="crazy_eights_console.jpg" class="crazy_eights_image" align="left"/>
+                <img src="connect_four_console.jpg" class="connect_four_image" align="right"/>
+            </div>
+            <div class="experience">
+                <p>
+                    <strong>My Experience</strong>
+                </p>
+                <ul class="experience-list">
+                    <li>
+                        Am currently involved in undergraduate research with VR development - Python coding
+                    </li>
+                    <li>
+                        Have worked on various coding projects in Java, C#, and C++ for classes and self-started interests
+                    </li>
+                    <li>
+                        Am actively looking for my first internship to use my skill sets in the industry
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="projects">
-            <h3>
-                Projects
-            </h3>
-            <hr size ="2"/>
-            <ul class="projects-list">
-                <li>
-                    <a href="https://github.com/andrest50"> Github </a>
-                </li>
-                <li>
-                    Connect Four
-                </li>
-                <li>
-                    Word Counter & Finder
-                </li>
-                <li>
-                    Budget Tracker
-                </li>
-                <li>
-                    Minigames
-                </li>
-            </ul>
+        <button class="button1" onclick="buttonClicked(this)">Click me!</button>
+
+        <div id="disappear">
+            Disappearing div
         </div>
     </body>
 </html>
