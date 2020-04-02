@@ -1,0 +1,131 @@
+html, body {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#home-header {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-image: url("background-header.jpg");
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.home-title {
+    color: #002484;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-stretch: ultra-expanded;
+    padding: 0;
+    margin: 0;
+}
+
+#title-name {
+    font-size: 6em;
+    margin-top: 80px;
+}
+
+#subtitle-name {
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.social-media-links {
+    position: absolute;
+    display: flex;
+    background-color: #C2A4FA;
+    width: 300px;
+    height: 50px;
+    top: 250px;
+    right: -15px;
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 100%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+#background {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    margin-top: 0px;
+    background: linear-gradient(#89BAF9, #FFC3FA);
+}
+
+.about-me-container {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+
+.about-me-box {
+    flex: none;
+    border: 2px #002484 solid;
+    border-radius: 30px;
+    width: 30%;
+    padding: 10px;
+    margin: 50px 0px 50px 50px;
+}
+
+.about-me-box h3 {
+    color: #011039;
+    text-align: center;
+}
+
+.about-me-box ul{
+    color: #011039;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    margin-left: -30px;
+    font-size: 1.2em;
+}
+
+.about-me-box ul li {
+    margin: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: -180px;
+    width: 100%;
+    padding: 10px;
+    background-color: #BE9BFF;
+}
