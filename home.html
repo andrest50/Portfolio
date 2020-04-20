@@ -4,46 +4,87 @@
         <title>Andres Tobon</title>
         <link href="styling.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="index.js"></script>
+        <script src="main.js"></script>
     </head>
     <body>
         <div id="home-header">
             <h1 class="home-title" id="title-name">Andres Tobon</h1>
-            <p class="home-title" id="subtitle-name">An aspiring software developer</p>
+            <p class="home-title" id="subtitle-name">A software developer</p>
             <div class="social-media-links">
-                <a href="https://twitter.com/alwaysl06681154" class="fa fa-twitter" target="_blank"></a>
+                <a href="" class="fa fa-twitter" target="_blank"></a>
                 <a href="https://www.linkedin.com/in/tobonandres/" class="fa fa-linkedin" target="_blank"></a>
                 <a href="https://github.com/andrest50" class="fa fa-github" target="_blank"></a>
             </div>
         </div>
         <div id="background">
-            <div id="about-me-container">
+            <div class="about-me-container">
                 <div class="about-me-box">
                     <h3>About Me</h3>
-                    <ul>
-                        <li>First-year computer science student</li>
+                    <ul class="list">
+                        <li>First-year student</li>
+                        <li>Computer Science major</li>
                         <li>Mathematics minor</li>
-                        <li>Interested in AI & Web Development</li>
+                        <li>Getting into Chess and Go</li>
+                    </ul>
+                    <h3>Interests</h3>
+                    <ul class="list">
+                        <li>Machine Learning</li>
+                        <li>Data Science</li>
+                        <li>Web Development</li>
+                    </ul>
+                    <h3>Known Technologies</h3>
+                    <ul class="list">
+                        <li>C++</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Some Java, Python, C#</li>
+                    </ul>
+                    <h3>Learning</h3>
+                    <ul class="list">
+                        <li>Reactjs</li>
+                        <li>Nodejs & Express</li>
+                        <li>C</li>
                     </ul>
                 </div>
                 <div class="about-me-box">
                     <h3>Past Projects</h3>
-                    <ul>
+                    <ul class="list">
                         <li>Connect Four</li>
                         <li>Zoo Tycoon</li>
                         <li>Hunt the Wumpus</li>
+                        <li>Crazy Eights</li>
                     </ul>
                 </div>
                 <div class="about-me-box">
                     <h3>Current Projects</h3>
-                    <ul>
+                    <ul class="list">
                         <li>Codeforces Problems</li>
                         <li>Portfolio Website</li>
                         <li>Tools4You</li>
                     </ul>
                 </div>
             </div>
+            <div class="gallery">
+                <div class="row">
+                    <div class="column">
+                        <img class="gallery-images" src="crazy_eights_console.JPG" alt="Crazy eights" onclick="myFunction(this)">
+                    </div>
+                    <div class="column">
+                        <img class="gallery-images" src="connect_four_console.JPG" alt="Connect four" onclick="myFunction(this)">
+                    </div>
+                    <div class="column">
+                        <img class="gallery-images" src="hunt_the_wumpus.jpg" alt="Hunt the wumpus" onclick="myFunction(this)">
+                    </div>
+                    <div class="column">
+                        <img class="gallery-images" src="zoo_tycoon.jpg" alt="Zoo tycoon" onclick="myFunction(this)">
+                    </div>
+                </div>
+                <div class="main-image">
+                    <img id="expandedImg">
+                    <div id="imgtext"></div>
+                    <br>
+                </div>
+            </div>
+            <footer>2020</footer>
         </div>
-        <footer>2020</footer>
     </body>
 </html>

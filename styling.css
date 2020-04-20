@@ -1,8 +1,13 @@
+/*
+    Things that need fixing:
+        The flexbox right-hand side goes to the very edge of the viewport
+        The gallery div is relative to the background div and not the flexbox (has to be readjusted often)
+*/
+
 html, body {
     margin-top: 0px;
     padding-top: 0px;
     margin-left: 0px;
-    position: absolute;
     height: 100%;
     width: 100%;
 }
@@ -87,7 +92,8 @@ html, body {
 }
 
 .about-me-container {
-    display: inline-flex;
+    position: relative;
+    display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
@@ -96,7 +102,6 @@ html, body {
 }
 
 .about-me-box {
-    flex: none;
     border: 2px #002484 solid;
     border-radius: 30px;
     width: 30%;
@@ -109,22 +114,59 @@ html, body {
     text-align: center;
 }
 
-.about-me-box ul{
+.about-me-box .list{
     color: #011039;
     text-decoration: none;
     text-align: center;
     list-style-type: none;
-    margin-left: -30px;
     font-size: 1.2em;
+    margin: 0px 0px 0px -30px
 }
 
-.about-me-box ul li {
+.about-me-box .list li {
     margin: 5px;
+}
+
+.gallery {
+    border: 2px solid green;
+    border-radius: 30px;
+    width: 500px;
+    float: right;
+    position: absolute;
+    top: 250px;
+    right: 10%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    margin: 10px 10px 10px 30px;
+}
+
+.row .column {
+    margin: 0px 10px 0px 0px;
+}
+
+.gallery-images {
+    width: 100px;
+    height: 100px;
+}
+
+#expandedImg {
+    width: 250px;
+    height: 200px;
+}
+
+#imgtext {
+    font-size: 20px;
+    color: darkgreen;
+    margin-left: 10px;
 }
 
 footer {
     position: absolute;
-    bottom: -180px;
+    bottom: 0px;
     width: 100%;
     padding: 10px;
     background-color: #BE9BFF;
