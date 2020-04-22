@@ -99,6 +99,7 @@ html, body {
     justify-content: center;
     align-items: baseline;
     align-content: center;
+    justify-content: space-evenly;
 }
 
 .about-me-box {
@@ -106,7 +107,7 @@ html, body {
     border-radius: 30px;
     width: 30%;
     padding: 10px;
-    margin: 50px 0px 50px 50px;
+    margin: 50px 0px 50px 0px;
 }
 
 .about-me-box h3 {
@@ -130,7 +131,7 @@ html, body {
 .gallery {
     border: 2px solid green;
     border-radius: 30px;
-    width: 500px;
+    width: 50%;
     float: right;
     position: absolute;
     top: 250px;
@@ -154,7 +155,7 @@ html, body {
 }
 
 #expandedImg {
-    width: 250px;
+    width: 40%;
     height: 200px;
 }
 
