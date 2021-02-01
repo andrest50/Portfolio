@@ -1,5 +1,3 @@
-//JS Intro
-
 let variable = "var";
 variable = 2;
 
